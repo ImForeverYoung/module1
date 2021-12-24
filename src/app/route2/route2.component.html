@@ -1,0 +1,23 @@
+
+<mat-card class="example-card">
+  <mat-card-header>
+
+    <mat-card-title>{{name_starship}}</mat-card-title>
+    <mat-card-subtitle>{{manufacterer}}</mat-card-subtitle>
+  </mat-card-header>
+
+  <mat-card-content>
+    <p>
+      The {{name_starship}} was created at {{created | date: 'fullDate'}}.
+      <br>
+      These are characteristics of the starship:
+      <br>
+      MGLT: {{mglt}} (The Maximum number of Megalights this starship can travel in a standard hour)
+      <br>
+      hyperdrive_rating: {{hyperdrive_rating}}
+      <br>
+      length: {{length}} metres
+    </p>
+  </mat-card-content>
+
+</mat-card>
